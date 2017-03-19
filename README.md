@@ -33,10 +33,14 @@
 
 5. 将index.html中content的img下载下来放入本地文件夹，并且修改src，国内加载这几张图片实在是太慢了。
 
-6. 压缩pizzeria.jpg,pizza.png和profilepic.jpg，尽量减少加载的数据大小。
+6. 压缩图片大小，尽量减少加载的数据大小。
 
 7. 修改main.js的函数changePizzaSizes，简化这个方法，并消除强制同步布局。
 
 8. 修改main.js中生成的披萨滑窗数，200个也太多了。
 
 9. 在style.css中为.mover添加will-change属性，简化绘制流程。
+
+10. 将style.css的link移到html最后，防止其阻止加载。
+
+11. 使用getElementById和getElementsByClassName代替querySelector和querySelectorAll, 提高javascript运行效率。
